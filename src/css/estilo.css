@@ -1,8 +1,8 @@
 :root{
-    --color1: #fff;
+    --color1:#fff;
+    --color2:#333;
     --bgColor1: #f0faff;
-    --bgColor2: #001f3f;
-    --color2: #333;
+    --bgColor2:#001f3f;
     --fontFamily: "Cascadian Code", sans-serif;
 }
 
@@ -29,7 +29,7 @@ header{
 }
 header h1{
     font-weight:400;
-    letter-space: 5px;
+    letter-spacing: 5px;
 }
 main{
     flex:1;
@@ -41,25 +41,25 @@ main{
 
 .container{
     background:var(--color1);
-    width:100%; /* largura máxima */
-    max-width:600px; /* */
+    width:100%;/*largura maxima*/
+    max-width:600px;/*largura maxima utilizada*/
     padding:30px;
     border-radius:20px;
     box-shadow:0 10px 10px rgba(0,0,0,0.6);
     text-align:center;
 }
 #canvas{
-    display:none; /* esconder tela*/
+    display:none;/*esconder tela*/
 }
 #video{
-    width:100%
+    width:100%;
     height:auto;
     border-radius:10px;
     background:var(--color2);
     color:var(--color1);
     margin-bottom:20px;
-    /* espelha a camera para parecer um espelho*/
-    transform:scaleX(-1);
+    /*espelha  a camera para parecer um espelho*/
+    /* transform:scaleX(-1); */
 }
 #btn-texto{
     background:var(--bgColor2);
@@ -75,13 +75,13 @@ main{
     transform:translateY(-5px);
     color:var(--color2);
     background:var(--bgColor1);
-    font-wight:900;
+    font-weight:900;
 }
 #saida{
-    background:-var(--bgColor1);
+    background:var(--bgColor1);
     padding:20px;
     border-radius:10px;
-    border-left:5px solid blue;
+    border-left: 5px solid blue;
     min-height:100px;
     text-align:left;
     word-wrap:break-word;
